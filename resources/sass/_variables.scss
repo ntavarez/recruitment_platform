@@ -1,0 +1,31 @@
+// Body
+$body-bg: #ffffff;
+$bg-color-img: #3AB8F8;
+
+// Typography
+$font-stack: 'Roboto', sans-serif;
+$font-color: #397AB0;
+$font-size-base: 1.1rem;
+$line-height-base: 1.6;
+$border-color: #CDA2FF;
+$border-radius: 0.4rem;
+$button-color: #397AB0;
+$primary-title: 2rem;
+$secundary-title: 1.3rem;
+$link-register-color: #6B5782;
+
+
+//Focus
+$focus-ring-width:      0.25rem;
+$focus-ring-opacity:    0.25;
+$focus-ring-color:      rgba(#CDA2FF, $focus-ring-opacity);
+$focus-ring-blur:       0;
+$focus-ring-box-shadow: 0 0 $focus-ring-blur $focus-ring-width $focus-ring-color;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);

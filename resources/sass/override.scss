@@ -1,0 +1,68 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: $font-color !important;
+    font-family: $font-stack !important;
+}
+
+/* layout.app */
+
+.navbar-brand img {
+    width: 60% !important;
+}
+
+.nav-item a {
+    font-size: 1.1em !important;
+}
+
+.nav-item a:hover {
+    color: #CDA2FF !important;
+}
+
+/* home */
+
+.home-img img {
+    width: 100% !important; 
+    background-color: #3AB8F8 !important;
+}
+
+.form-check-input {
+    margin-top: 0.2em !important;
+}
+
+.form-check-input:checked {
+    border-color: #CDA2FF !important;
+    background-color: #CDA2FF !important;
+}
+
+*:focus {
+    border: none !important;
+}
+
+.btn-primary {
+    background-color: #397AB0 !important; 
+    font-size: 0.9em !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.btn-primary:hover {
+    background-color: #4591CF !important;
+}
+
+.btn-link {
+    font-size: 1em !important; 
+    color: #FF7070 !important;
+}
+
+/* cadastro perfil */
+
+.links-register a {
+    color: $link-register-color !important;
+}
+
+/* cadastro candidato */
+
+.worker-profile:not(.disabilities-list) {
+    padding-right: 12rem !important;
+}

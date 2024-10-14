@@ -1,0 +1,42 @@
+@use 'variables';
+
+/* home */
+
+body {  
+    background-color: $body-bg;
+}
+
+.title-home {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* cadastro perfil */
+
+.main-title {
+    font-size: $primary-title;
+    font-style: b;
+}
+
+.secundary-title {
+    font-size: $secundary-title;
+}
+
+#select-profile-img {
+    width: 100%;
+}
+
+/* upload CV */
+
+.upload-cv svg{
+    transform: scale(0.15);
+}
+
+.cv-area {
+    background-image: url('/public/assets/icons/upload.svg');
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: $border-radius;
+}
